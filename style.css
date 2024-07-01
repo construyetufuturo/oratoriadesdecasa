@@ -284,6 +284,7 @@ header{
     color: #fff;
     text-decoration: none;
 }
+
 .video-conteiner .card{
     background-color: transparent;
     text-align: center;
@@ -788,6 +789,7 @@ footer{
     .contenedor-oferta .button-call{
         font-size: 1rem;
     }
+    
     .confirmation-text-3{
         font-size: .6rem;
        
@@ -802,7 +804,9 @@ footer{
         padding: 5px 5px;
     
     }
-    
+    .contenedor-oferta img, .contenedor-oferta .button-box-oferta{
+        width: 100%;
+    }
 
 }
 @media screen and (max-width: 300px) {
@@ -890,6 +894,8 @@ footer{
     .contenedor-oferta .button-call{
         font-size: 0.9rem;
     }
+    
+    
 }
 
 
