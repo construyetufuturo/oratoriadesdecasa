@@ -175,6 +175,16 @@ header{
     padding-bottom: 18px;
     text-shadow: 0px 0px 5px #638253;
 }
+.incripcion h3{
+    color: #0c0e0b;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    padding-top: 8px;
+    padding-bottom: 18px;
+}
 .encabezado h4{
     font-size: 24px;
     padding-top: 0px;
@@ -190,7 +200,7 @@ header{
 ); */
 
    /* color:transparent; */
-   color:#de86ed;;
+   color:#de86ed;
    -webkit-background-clip:text;
     letter-spacing: 1px;
     text-shadow: 0px 0px 5px #0c0e0b;
@@ -239,36 +249,50 @@ header{
     width: 100%;
     opacity: 1;
     cursor: pointer;
-    background-color: #efff04;
-    border: .05rem solid #d4da2b;
     border-radius: .6875rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 1.25rem;
-    padding: 1.2rem 0;
-    color: #fff;
-    background: #8226aa;
+    
    /* color:transparent; */
     border-width: .1rem;
-    border-color: #462523 ;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-size: 1.3rem;
-    font-weight: 700;
-    box-shadow: 0 0 8rem -.5rem rgba(216, 22, 0, 0);
+    
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
     text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 10px;
+    display: block;
+}
+.contenedor-oferta .button-call p{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    font-family: 'Montserrat';
 }
 .contenedor-oferta .button-box-oferta :hover{
-    background: rgb(100, 0, 128);
+    background-position: right center; /* change the direction of the change here */
     color: #fff;
-    border-color: rgb(100, 0, 128);
-    box-shadow: 0 0 5px rgb(100, 0, 128),
-              0 0 25px rgb(100, 0, 128),
-              0 0 50px rgb(100, 0, 128),
-              0 0 100px rgb(100, 0, 128);
+    text-decoration: none;
 }
-
+.video-conteiner .card{
+    background-color: transparent;
+    text-align: center;
+}
+.video-conteiner .card-body{
+    color: #fff;
+}
+ 
+ 
 /* CALL TO ACTOIN */
 
 /* PRECIO OFERTA 1 */
@@ -750,15 +774,15 @@ footer{
         font-size: 1.25rem;
         line-height: 1.3rem;
     }
-    .video-section h3{
+    .video-section h3, .incripcion h3{
         padding-bottom: 8px;
         font-size: 22px;
     }
-    .video-section{
+    .video-section, .incripcion{
         height: auto;
         width: 100%
     }
-    .contenedor-video .encabezado{
+    .encabezado{
         width: 100%;
     }
     .contenedor-oferta .button-call{
